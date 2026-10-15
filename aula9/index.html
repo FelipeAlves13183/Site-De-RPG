@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de personagem RPG</title>
+    <link rel="shortcut icon" href="Verity.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container info-basicas">
+            <div>
+                <p>NOME DO JOGADOR</p>
+                <input type="text">     
+            </div>
+
+            <div>
+                <p>NOME DO PERSONEGEM</p>
+                <input type="text"> 
+            </div>
+
+            <div>
+                <p>CLASSE DO PERSONAGEM</p>
+                <select name="" id="">
+                    <option value="none" disabled selected></option>
+                    <option value="">Cavalheiro</option>
+                    <option value="">Clérico</option>
+                    <option value="">Piromaniaco</option>
+                    <option value="">Arqueiro</option>
+                    <option value="">Armeiro</option>
+                    <option value="">Guerreiro</option>
+                </select>
+            </div>
+        </div>
+        <div class="container info-status">
+            <div>
+
+                <p>HP</p>
+                <input type="number" max="1000" min="1" placeholder="ex:500">
+            </div>
+
+                <p>DEFESA</p>
+                <input type="number" max="1000" min="1" placeholder="ex:500">
+            <div>
+
+                <p>RESISTÊNCIA</p>
+                <input type="number" max="1000" min="1" placeholder="ex:500">
+            </div>
+            <div>
+
+                <P>VELOCIDADE</P>
+                <input type="number" max="1000" min="1" placeholder="ex:500">
+            </div>
+            <div>
+
+                <P>RAÇA</P>
+                <select name="" id="">
+                    <option value="none" disebled selected>ESCOLHA</option>
+                    <option value="Goblin">Goblin</option>
+                    <option value="Gigante">Gigante</option>
+                    <option value="Elfo">Elfo</option>
+                    <option value="Humano">Humano</option>
+                    <option value="Fada">Fada</option>
+                    <option value="Dragão">Dragão</option>
+                </select>
+            </div>
+        </div>
+        <div class="container info-gerais">
+          <div class="wrapper">
+              <div>
+                  <p>Bibliografia</p>
+                  <textarea name="" id="" rows="20" cols="25"></textarea>
+                </div>
+                <div>
+                    <p>Imagem do player</p>
+                    <input type="file" name="imgTeste" id="">
+                </div>
+                <div>
+                    <p>Equipamento</p>
+                    <textarea name="" id="" rows="20" cols="25"></textarea>
+                </div>
+            </div>
+            <div>
+                <p>Inventário</p>
+                <textarea name="" id="" rows="20" cols="40"></textarea>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
